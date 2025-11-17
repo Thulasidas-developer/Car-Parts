@@ -1,0 +1,237 @@
+.home-page{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.home-nav{
+    gap: 230px;
+}
+.nav-bg{
+  
+    padding: 25px;
+    background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(176, 141, 141, 1) 0%, rgba(7, 101, 130, 1) 0%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.logo-list{
+    align-items: baseline;
+    margin: 0px;
+}
+.logo .logo-con{
+    font-family: "Lavishly Yours", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: orange;
+  font-size: 45px;
+}
+
+.home-page .home-nav{
+    align-items:baseline;
+}
+.home-page .logo img{
+    border-radius: 100px ;
+}
+.home-navbars{
+    gap: 130px;
+}
+.home-navbars .nav-items{
+    font-size: 17px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-variation-settings:
+    "YOPQ" 300;
+}
+.home-navbars  #act{
+    color: orange !important; 
+}
+.page-1-con{
+    gap: 130px;
+    margin-top: 150px !important;
+}
+.homepage1-con1 .page-1-con ,.con-1{
+     font-family: "Vast Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  background: linear-gradient(90deg, #fac81c 0%, #91cfff 58%, #f97c1b 93%);
+color: transparent;
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+text-fill-color: transparent;
+animation-duration: 3s;    
+animation-delay: 1s;
+
+
+
+    
+
+}
+.homepage1-con1 .page-1-con ,.con-2{
+    font-family: "Vast Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 335px;
+    font-size: 10px;
+    margin: auto;
+    animation-duration: 3s;
+    animation-delay: 1s;
+   
+
+    
+
+}
+.bg-image img{
+    animation-duration: 3s;
+    
+    animation-delay: 1s;
+   
+}
+.image-con{
+    text-align: center;
+    margin: auto;
+
+}
+.image-con .image-btn{
+    border: solid blue;
+    padding: 7px 45px 7px 45px;
+    text-decoration: none;
+    border-radius: 5px;
+        background: blue;
+    color: whitesmoke;
+     font-family: "Baumans", system-ui;
+  font-weight: 900;
+  font-style: normal;
+   
+}
+.image-con .image-btn:hover{
+    background-color: #da1c1c;
+    border:solid #da1c1c;
+}
+.page-2{
+    height: 600px;
+}
+.page-2 ,title{
+     font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.page-2 .brands{
+   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  
+}
+.brands .brands-items{
+     gap: 17px;
+}
+.page-2 .brands .brands-items .img1,.img2,.img3,.img4,.img5{
+    img{
+        border-right: solid grey 1px;
+
+    }
+    
+   
+
+}
+.brands-items img{
+    padding: 20px;
+}
+.brands-items .img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.img6:hover{
+    img{
+        padding: 0px;
+    }
+    
+}
+.customer-title{
+     font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.happy-customer .bxslider .boxs{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 30px;
+    height: 300px;
+}
+.boxs .review-title{
+    align-items: center;
+    gap: 30px;
+}
+.boxs .review-con .stars{
+    margin-top: 35px;
+}
+.boxs .review-con .stars .act i{
+    color:orange;
+}
+.boxs .review-title p{
+    margin: 0px;
+}
+.boxs .review-con p{
+   
+    padding-top: 50px;
+}
+.happy-customer .bxslider img{
+    width: 50px;
+    border-radius: 100px;
+}
+
+/* media query for home page */
+
+@media only screen and (max-width:1400px){
+    .home-navbars {
+        gap: 90px;
+    }
+
+}
+@media only screen and (max-width:576px){
+    .home-page .home-nav{
+      display:  block !important;
+    }
+   /* .home-nav .logo-list{
+    display: block !important;
+   } */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* productcss */
+.productpage1{
+    height: 600px;
+}
+.productpage1 .product-cont .boxs{
+    gap: 50px;
+    
+}
+.boxs .box1{
+   width: 350px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.pro-con{
+    background-color: #c0c8ce;
+}

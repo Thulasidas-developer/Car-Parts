@@ -1,0 +1,28 @@
+.bg{
+    background: #507c8f;
+background: linear-gradient(90deg, rgba(80, 124, 143, 1) 0%, rgba(152, 163, 157, 1) 100%, rgba(237, 221, 83, 1) 100%);
+}
+.login-form table{
+    margin: auto;
+     box-shadow: rgba(226, 217, 217, 0.35) 0px 5px 15px;
+    background-color:#076582;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+.login-form td{
+    padding: 20px;
+}
+.login-form table input{
+    height: 45px;
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border: none;
+}
+.login-form button{
+        border: solid yellow;
+    border-radius: 5px;
+    padding: 2px 20px 2px 20px;
+    background-color: yellow;
+}
